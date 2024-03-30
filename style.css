@@ -1,0 +1,58 @@
+* {
+
+}
+
+:focus {
+ /* TODO */
+}
+
+body {
+  background-image: linear-gradient(to left,red, yellow);
+}
+
+input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+  background-color: orange;
+  align-self: center;
+}
+
+.search-container {
+display:flex;
+justify-content: center;
+
+}
+.search-container input,
+.search-container .suggestions {
+  position:relative;
+  width: 200px;
+}
+.search-container .suggestions {
+  position:absolute;
+  top: 400px;
+  right: 915px;
+  width:150px;
+
+}
+
+ul {
+  position: absolute;
+  list-style: none;
+  background-color: orange;
+  justify-content: center;
+}
+ul.has-suggestions {
+
+ 
+
+}
+ul li {
+  word-spacing: 1.5px;
+  width:170px;
+}
+ul li:hover {
+  background-color: red;
+}
+
